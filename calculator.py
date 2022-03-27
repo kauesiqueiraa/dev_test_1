@@ -8,6 +8,7 @@ def calculator(consumption: list, distributor_tax: float, tax_type: str) -> tupl
     monthly_savings = 0
     applied_discount = 0
     coverage = 0
+    
     # your code here #
 
     return (
