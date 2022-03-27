@@ -2,13 +2,13 @@
 
 Uma empresa de assinatura de energia está interessada em criar uma calculadora de economia em seu site e consultou você para desenvolver a calculadora para eles. Você escolheu a linguagem Python para desenvolver a aplicação. Subir o código para o Github é importante para a sua equipe de desenvolvimento te auxiliar e avaliar o que foi implementado.  
 
-Na calculadora você deverá fazer a leitura da fatura e utilizar os seguintes dados:
+Sua aplicação receberá as seguintes entradas:
 
 - Média de consumo em kWh dos 3 últimos meses disponíveis na fatura
 - Valor da tarifa da distribuidora
 - Tipo de tarifa (Comercial, Residencial e Industrial)
 
-Na sua saída você deverá apresentar os seguintes dados:
+Os resultados da sua aplicação serão:
 
 - Economia Anual
 - Economia Mensal
