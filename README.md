@@ -4,7 +4,7 @@ Uma empresa de assinatura de energia está interessada em criar uma calculadora 
 
 Sua aplicação receberá as seguintes entradas:
 
-- Média de consumo em kWh dos 3 últimos meses disponíveis na fatura
+- Média mensal de consumo em kWh
 - Valor da tarifa da distribuidora
 - Tipo de tarifa (Comercial, Residencial e Industrial)
 
