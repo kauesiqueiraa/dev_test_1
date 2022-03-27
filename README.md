@@ -29,5 +29,7 @@ Alem disso, deve-se considerar os seguintes percentuais de cobertura baseado no 
 | --- | --- | --- | --- |
 | Cobertura | 90% | 95% | 99% |
 
+* Cobertura é o valor da energia que o consumidor irá receber da empresa de assinatura de energia em relação à energia consumida
+
 Por curiosidade, segue um exemplo de uma calculadora em produção: 
 [Simulador - Group Energia - Desconto na conta de luz e gestão de energia](https://groupenergia.com.br/simulador/)
