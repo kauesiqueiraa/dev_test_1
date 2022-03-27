@@ -1,16 +1,19 @@
-# Teste Bolsista de Desenvolvimento
+<h1 align="center"> Teste Bolsista de Desenvolvimento</h1>
 
-Uma empresa de assinatura de energia está interessada em criar uma calculadora de economia em seu site e consultou você para desenvolver a calculadora para eles. 
-
-Ex.: 
-
-[Simulador - Group Energia - Desconto na conta de luz e gestão de energia](https://groupenergia.com.br/simulador/)
+Uma empresa de assinatura de energia está interessada em criar uma calculadora de economia em seu site e consultou você para desenvolver a calculadora para eles. Você escolheu a linguagem Python para desenvolver a aplicação. Subir o código para o Github é importante para a sua equipe de desenvolvimento te auxiliar e avaliar o que foi implementado.  
 
 Na calculadora você deverá fazer a leitura da fatura e utilizar os seguintes dados:
 
 - Média de consumo em kWh dos 3 últimos meses disponíveis na fatura
+- Valor da tarifa da distribuidora
 - Tipo de tarifa (Comercial, Residencial e Industrial)
-- Valor da tarifa
+
+Na sua saída você deverá apresentar os seguintes dados:
+
+- Economia Anual
+- Economia Mensal
+- Desconto Aplicado
+- Cobertura
 
 A empresa de assinatura de energia te forneceu as seguintes premissas para o desconto:
 
@@ -26,9 +29,5 @@ Alem disso, deve-se considerar os seguintes percentuais de cobertura baseado no 
 | --- | --- | --- | --- |
 | Cobertura | 90% | 95% | 99% |
 
-Na sua saída você deverá apresentar os seguintes dados:
-
-- Economia Anual
-- Economia Mensal
-- Desconto Aplicado
-- Cobertura
+Por curiosidade, segue um exemplo de uma calculadora em produção: 
+[Simulador - Group Energia - Desconto na conta de luz e gestão de energia](https://groupenergia.com.br/simulador/)
