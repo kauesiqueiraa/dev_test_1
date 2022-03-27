@@ -19,9 +19,9 @@ A empresa de assinatura de energia te forneceu as seguintes premissas para o des
 
 | Consumo (Média) | Desconto (Residencial) | Desconto (Comercial) | Desconto (Industrial) |
 | --- | --- | --- | --- |
-| $\leq$ 10.000 kWh | 18% | 16% | 12% |
-| Entre 10.000 kWh e 20.000 kWh | 22% | 18% | 15% |
-| Acima de 20.000 kWh | 25% | 22% | 18% |
+| < 10.000 kWh | 18% | 16% | 12% |
+| >= 10.000 kWh e <= 20.000 kWh | 22% | 18% | 15% |
+| > 20.000 kWh | 25% | 22% | 18% |
 
 Alem disso, deve-se considerar os seguintes percentuais de cobertura baseado no consumo:
 
