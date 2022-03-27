@@ -4,7 +4,7 @@ Uma empresa de assinatura de energia está interessada em criar uma calculadora 
 
 Sua aplicação receberá as seguintes entradas:
 
-- Entrar com uma lista contendo o consumo de energia dos últimos 3 meses
+- Uma lista contendo o consumo de energia dos últimos 3 meses
 - Valor da tarifa da distribuidora
 - Tipo de tarifa (Comercial, Residencial e Industrial)
 
