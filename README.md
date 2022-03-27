@@ -25,7 +25,7 @@ A empresa de assinatura de energia te forneceu as seguintes premissas para o des
 
 Alem disso, deve-se considerar os seguintes percentuais de cobertura baseado no consumo:
 
-| Consumo (Média) - kWh | Até 10.000 kWh | Entre10.000 kWh e 20.000 kWh | Acima de 20.000 kWh |
+| Consumo (Média) - kWh | < 10.000 kWh | >= 10.000 kWh e <= 20.000 kWh | > 20.000 kWh |
 | --- | --- | --- | --- |
 | Cobertura*** | 90% | 95% | 99% |
 
