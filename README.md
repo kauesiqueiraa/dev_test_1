@@ -34,7 +34,9 @@ Alem disso, deve-se considerar os seguintes percentuais de cobertura baseado no 
 Requisitos:
 
 1 - A calculadora terá que ser desenvolvida no arquivo calculator.py dentro da função calculator();
+
 2 - Deverá ser utilizado o framework Django para fazer a integração entre a calculadora e a interface;
+
 3 - O candidato terá que criar uma branch nomeada com o seu nome e abrir um pull request para concluir a entrega do teste.
 
 Bônus:
