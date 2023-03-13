@@ -41,7 +41,7 @@ Requisitos:
 
 Bônus:
 
-Terá uma pontuação extra o candidato que conseguir disponibilizar a aplicação em Nuvem com um servidor de sua escolha.
+Terá uma pontuação extra o candidato que conseguir disponibilizar a aplicação em Nuvem com um servidor de sua escolha. O candidato deve disponibilizar o link da aplicação no final desta documentação.
 
 Por curiosidade, segue um exemplo de uma calculadora em produção: 
 [Simulador - Group Energia - Desconto na conta de luz e gestão de energia](https://groupenergia.com.br/simulador/)
