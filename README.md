@@ -32,11 +32,13 @@ Alem disso, deve-se considerar os seguintes percentuais de cobertura baseado no 
 *** Cobertura é o valor da energia que o consumidor irá receber da empresa de assinatura de energia em relação à energia consumida
 
 Requisitos:
+
 1 - A calculadora terá que ser desenvolvida no arquivo calculator.py dentro da função calculator();
 2 - Deverá ser utilizado o framework Django para fazer a integração entre a calculadora e a interface;
 3 - O candidato terá que criar uma branch nomeada com o seu nome e abrir um pull request para concluir a entrega do teste.
 
 Bônus:
+
 Terá uma pontuação extra o candidato que conseguir disponibilizar a aplicação em Nuvem com o servidor de sua escolha.
 
 Por curiosidade, segue um exemplo de uma calculadora em produção: 
