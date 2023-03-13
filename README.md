@@ -1,4 +1,4 @@
-<h1 align="center"> Teste Bolsista de Desenvolvimento</h1>
+<h1 align="center">Desenvolvedor Web (Back/Front-End) - Django/Python</h1>
 
 Uma empresa de assinatura de energia está interessada em criar uma calculadora de economia em seu site e consultou você para desenvolver a calculadora para eles. Você escolheu a linguagem Python e o framework Django para desenvolver a aplicação.  
 
@@ -36,7 +36,7 @@ Requisitos:
 2 - Deverá ser utilizado o framework Django para fazer a integração entre a calculadora e a interface;
 3 - O candidato terá que criar uma branch nomeada com o seu nome e abrir um pull request para concluir a entrega do teste.
 
-Bônus
+Bônus:
 Terá uma pontuação extra o candidato que conseguir disponibilizar a aplicação em Nuvem com o servidor de sua escolha.
 
 Por curiosidade, segue um exemplo de uma calculadora em produção: 
