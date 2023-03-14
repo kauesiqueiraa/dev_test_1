@@ -1,21 +1,64 @@
 def calculator(consumption: list, distributor_tax: float, tax_type: str) -> tuple:
     """
     returns a tuple of floats contained anual savings, monthly savings, applied_discount and coverage
+
     """
+
     annual_savings = 0
     monthly_savings = 0
     applied_discount = 0
     coverage = 0
 
     # your code here #
+    tariff_dict = {
+        "Residencial": {
+            "min": 0,
+            "max": 150,
+            "discount": 0.10,
+            "coverage": 0.9,
+        },
+        "Comercial": {
+            "min": 150,
+            "max": 500,
+            "discount": 0.16,
+            "coverage": 0.9,
+        },
+        "Industrial": {
+            "min": 500,
+            "max": float("inf"),
+            "discount": 0.20,
+            "coverage": 0.9,
+        }
+    }
 
+    # Calc consumo Medio
+    avg_consumption = sum(consumption) / len(consumption)
+
+    # Tarifa baseada no tipo
+    tariff = None
+    for key in tariff_dict:
+        if key == tax_type:
+            tariff = tariff_dict[key]
+
+    # calcular desconto com base no consumo e tarifa
+    discount = 0
+    if avg_consumption >= tariff["min"]:
+        if avg_consumption <= tariff["max"] or tariff["max"] == float("inf"):
+            discount = tariff["discount"]
+
+    # Calcular economia Anual
+    annual_savings = sum(consumption) * distributor_tax * discount * tariff["coverage"] * 12
+
+    # Calcular Economia Mensal
+    monthly_savings = annual_savings / 12
+
+    # return
     return (
         round(annual_savings, 2),
         round(monthly_savings, 2),
-        applied_discount,
-        coverage,
+        discount,
+        tariff["coverage"],
     )
-
 
 if __name__ == "__main__":
     print("Testing...")
