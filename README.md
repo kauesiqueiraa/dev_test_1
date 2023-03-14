@@ -39,7 +39,7 @@ Requisitos:
 
 3 - O candidato terá que criar uma branch nomeada com o seu nome e abrir um pull request para concluir a entrega do teste.
 
-Atenção: O candidato precisa fazer o fork do repositório para conseguir abrir o pull request.
+<h1 align="center">Atenção: O candidato precisa fazer o fork do repositório para conseguir abrir o pull request.</h1>
 
 Bônus: 
 
